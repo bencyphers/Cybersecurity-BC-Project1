@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+# Cybersecurity-BC-Project1
+1st Project
+>>>>>>> dcf5b0439c954f051904fffc201a8007a4e85231
 ## Automated ELK Stack Deployment
 
 The files in this repository were used to configure the network depicted below.
@@ -180,7 +185,11 @@ The configuration details of each machine may be found below.
 
 ### Access Policies
 
+<<<<<<< HEAD
 The machines on the internal network are not exposed to the public Internet. 
+=======
+The machines on the internal network are not exposed to the public Internet.
+>>>>>>> dcf5b0439c954f051904fffc201a8007a4e85231
 
 Only the Home machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
 - 23.121.228.177
@@ -226,14 +235,21 @@ These Beats allow us to collect the following information from each machine:
 - Metricbeat collects system metrics and filebeat collects and transfers data.
 
 ### Using the Playbook
+<<<<<<< HEAD
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
+=======
+In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned:
+>>>>>>> dcf5b0439c954f051904fffc201a8007a4e85231
 
 SSH into the control node and follow the steps below:
 - Copy the filebeat-playbook.yml file to the web VM's.
 - Update the hosts file to include the correct IP address for web and elk VM's.
 - Run the playbook, and navigate to Kibana to check that the installation worked as expected.
 
+<<<<<<< HEAD
 _TODO: Answer the following questions to fill in the blanks:_
+=======
+>>>>>>> dcf5b0439c954f051904fffc201a8007a4e85231
 - _Which file is the playbook? Where do you copy it? /etc/ansible/beats/filebeat-playbook.yml
 - _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on? You edit the ansible hosts file and set the host to whatever machine group you want to add it on._
 - _Which URL do you navigate to in order to check that the ELK server is running?   http://[your.VM.IP]:5601/app/kibana
